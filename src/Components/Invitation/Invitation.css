@@ -1,0 +1,66 @@
+.Invitation {
+  background: url(../Images/inner_left.png) no-repeat;
+  height: 700px;
+}
+
+.invite-head {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2.5fr 1fr;
+  padding: 25px 40px 5px 40px;
+  justify-items: center;
+}
+
+.invite-head1 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2.5fr 1fr;
+  padding: 15px 40px 5px 40px;
+  justify-items: center;
+}
+
+.invite-head-text {
+  display: grid;
+  align-items: center;
+  color: #744b02;
+  font-size: 1.06rem;
+}
+
+.invite-head-text1 {
+  display: grid;
+  align-items: center;
+  color: #744b02;
+  justify-items: center;
+}
+
+.vinayaka-text {
+  font-size: 1.2rem;
+}
+
+.dotted-line {
+  width: 75%;
+  margin: auto;
+  padding: 0 35px;
+  border-bottom: 1px dashed #a43b05;
+}
+
+.galleryleft {
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.galleryleft img {
+  border: solid 3px #d9a21e;
+}
+
+.galleryleft1 {
+  margin-top: 15px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.galleryleft1 img {
+  border: solid 3px #d9a21e;
+  width: 170px;
+}

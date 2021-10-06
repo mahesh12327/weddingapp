@@ -1,0 +1,32 @@
+.Header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 1fr;
+  padding-top: 75px;
+}
+
+.HeadingLogoContainer {
+  display: grid;
+  justify-items: end;
+}
+
+.godImageContainer {
+  display: grid;
+  justify-items: end;
+}
+
+@media screen and (max-width: 767px) {
+  .headinglogo {
+    max-width: 100%;
+  }
+
+  .god {
+    max-width: 100%;
+  }
+
+  .Header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 0.5fr;
+  }
+}

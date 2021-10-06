@@ -1,0 +1,73 @@
+.Home {
+  width: 75%;
+  margin: auto;
+}
+
+.ew {
+  display: none;
+}
+
+.carouselContainer {
+  border: 3px solid #ae0633;
+}
+
+.mainSection {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2.15fr;
+  margin-top: 50px;
+  column-gap: 5px;
+}
+
+.detailsContainer {
+  margin-top: 10px;
+}
+
+.wedding-date-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 10px;
+  height: 300px;
+  border: 3px solid #ed2750;
+  background: linear-gradient(to bottom, #dc143b 0%, #a00330 100%);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.wedding-date {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  color: white;
+}
+
+.yellow-flower-container {
+  display: grid;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 967px) {
+  .Home {
+    width: 95%;
+    margin: auto;
+  }
+  .w {
+    display: none;
+  }
+
+  .ew {
+    display: block;
+  }
+
+  .invitaionContainer {
+    display: none;
+  }
+  .mainSection {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+}

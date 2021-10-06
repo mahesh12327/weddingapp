@@ -1,0 +1,11 @@
+.Footer {
+  background: linear-gradient(to bottom, #dc143b 0%, #a00330 100%);
+  height: 40px;
+  width: auto;
+  color: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,106 @@
+.EventDetails {
+  border: 3px solid #ae7705;
+  background: #d69100;
+  margin-bottom: 50px;
+}
+
+.innerContainer {
+  margin: 20px;
+  background: linear-gradient(to bottom, #ffd457 0%, #fec10b 100%);
+  background-image: linear-gradient(
+    rgb(255, 212, 87) 0%,
+    rgb(254, 193, 11) 100%
+  );
+
+  border: 3px solid #ae7705;
+}
+
+.topFlowerBg {
+  background: url(../../Images/top-pattern.jpg) repeat-x top left;
+}
+
+.leftLeavesBg {
+  background: url(../../Images/left-pattern.png) repeat-y top left;
+}
+
+.bottomDesignFlower {
+  background: url(../../Images/btm-flower-bg.png) no-repeat bottom center;
+  height: 75px;
+  width: 100%;
+}
+
+.EventDetailsContainer {
+  padding: 40px;
+}
+
+.eventsContainer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 0.5fr 2fr;
+}
+
+.eventLeftDesign {
+  background: url(../../Images/events-left.jpg) no-repeat center;
+}
+
+.eventText h2 {
+  text-align: center;
+  color: #a42523;
+}
+
+.eventRightDesign {
+  background: url(../../Images/events-rht.jpg) no-repeat center;
+}
+
+.mandapamContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mandapamContainer img {
+  width: 500px;
+  border-radius: 100px;
+}
+
+.receptionDetails {
+  margin-top: 40px;
+}
+
+.receptionDetails h3 {
+  text-align: center;
+  color: #3e2f01;
+}
+
+.receptionDetails p {
+  text-align: center;
+  color: #6d0201;
+}
+
+.venueInfoText {
+  color: #3e2f01;
+}
+
+@media screen and (max-width: 967px) {
+  .innerContainer {
+    margin: 2px;
+    border: none;
+  }
+
+  .mandapamContainer img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mandapamContainer img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mandapamContainer img {
+    width: 180px;
+  }
+}

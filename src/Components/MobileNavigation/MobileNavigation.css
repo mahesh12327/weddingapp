@@ -1,0 +1,48 @@
+.menuContainer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 8fr 1fr;
+  background: url(../Images/menubg.jpg) repeat-x scroll 0 0;
+  justify-content: end;
+}
+
+.menu {
+  color: white;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+
+.barsIconContainer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  background: #eb1640;
+}
+
+.barsIconContainer:hover {
+  background: #dc143b;
+  cursor: pointer;
+}
+
+.mobileNavigationText {
+  background-color: #f9bb22;
+  border-bottom: 1px solid #cf9300;
+  padding: 7px 2%;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.mobileNavigationText a {
+  display: block;
+}
+
+.mobileNavigationText:hover {
+  background-color: #cf9300;
+  cursor: pointer;
+}
+
+.mobileNavigationText a {
+  color: #333333;
+  text-decoration: none;
+}

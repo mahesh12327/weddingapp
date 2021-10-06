@@ -1,0 +1,75 @@
+.Navigation {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+  background: url(../Images/menubg.jpg) repeat-x;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.home {
+  margin-left: 15px;
+}
+
+.navigationItem {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 2px;
+  text-align: center;
+}
+
+.largeNavigationItem {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 7fr 1fr;
+  text-align: center;
+}
+
+.navigationText {
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.navigationText:hover {
+  background: url(../Images/menu_hover.jpg) repeat-x;
+  cursor: pointer;
+  color: white;
+}
+
+.active {
+  background: url(../Images/menu_hover.jpg) repeat-x;
+  color: white !important;
+}
+
+.lastNavigationItem {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.lastNavigationItem a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.lastNavigationItem:hover {
+  background: url(../Images/menu_hover.jpg) repeat-x;
+  cursor: pointer;
+  color: white;
+}
+
+.menuSeperator {
+  display: grid;
+  align-items: center;
+}
+
+@media screen and (min-width: 757px) and (max-width: 1257px) {
+  .navigationText {
+    font-size: 0.7rem;
+  }
+  .lastNavigationItem {
+    font-size: 0.7rem;
+  }
+}

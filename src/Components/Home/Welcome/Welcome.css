@@ -1,0 +1,76 @@
+.Welcome {
+  border: 2px solid #ed2750;
+  background-color: #6e0202;
+}
+
+.welcome-title-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 10px 10px 0 10px;
+}
+
+.right-red-flower-container {
+  display: grid;
+  justify-items: end;
+}
+
+.welcome-title {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: grid;
+  align-items: flex-end;
+}
+
+.titleSeperator {
+  display: grid;
+  justify-items: center;
+  margin: 40px 0px;
+}
+
+.welcome-matter-container {
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+
+.welcome-matter1 {
+  margin: 20px 20px 20px 0px;
+}
+
+.welcome-matter2 {
+  margin: 20px 20px 20px 0px;
+}
+
+.welcome-footer {
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+.welcome-footer-text {
+  margin: 40px 40px 160px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .welcome-title-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.75fr 0.75fr;
+    padding: 10px 10px 0 10px;
+    position: relative;
+  }
+
+  .titleSeperator img {
+    width: 60%;
+  }
+
+  .welcome-title {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    font-size: 15px;
+  }
+}

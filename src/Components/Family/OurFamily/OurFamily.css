@@ -1,0 +1,129 @@
+.OurFamily {
+  margin-bottom: 20px;
+}
+
+.coupleNameBtn {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bride-groom-btn {
+  border: 3px solid #56cfeb;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #8de9fe;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bride-btn {
+  border: 3px solid #e257af;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #f070c1;
+  color: #8e033a;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.brideGroomOuterContainer {
+  border: 3px solid #56cfeb;
+  background: #8de9fe;
+  position: relative;
+}
+
+.brideGroomInnerContainer {
+  margin: 25px;
+  border: 2px solid #56cfeb;
+}
+
+.brideGroomHeader {
+  background: url(../../Images/bridegroom_topbg.jpg) no-repeat top center;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #544001;
+  background-color: #ffcb32;
+}
+
+.brideGroomBottomDesign {
+  background: url(../../Images/bridegroom_btmbg.jpg) repeat-x bottom center;
+  height: 24px;
+}
+
+.blueBorderEraser {
+  position: absolute;
+  background-color: #8de9fe;
+  width: 32.7%;
+  height: 3px;
+  top: -3px;
+}
+
+.brideOuterContainer {
+  border: 3px solid #e257af;
+  background: #f070c1;
+  position: relative;
+}
+
+.pinkBorderEraser {
+  position: absolute;
+  background-color: #f070c1;
+  width: 32.7%;
+  height: 3px;
+  top: -3px;
+  left: 33.6%;
+}
+
+.brideGroomFamilyDetails {
+  background: linear-gradient(to bottom, #ffcb32 0%, #fec10b 100%);
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: #544001;
+  padding-top: 20px;
+}
+
+.brideGroomNameStyle {
+  color: #a42523;
+  font-size: 22px;
+}
+
+.brideInnerContainer {
+  margin: 25px;
+  border: 3px solid #e257af;
+}
+
+@media screen and (max-width: 967px) {
+  .coupleNameBtn {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .blueBorderEraser {
+    position: absolute;
+    background-color: #8de9fe;
+    width: 50%;
+    height: 3px;
+    top: -3px;
+  }
+
+  .pinkBorderEraser {
+    position: absolute;
+    background-color: #f070c1;
+    width: 50%;
+    height: 3px;
+    top: -3px;
+    left: 50%;
+  }
+  .brideGroomFamilyDetails {
+    padding-left: 8px;
+  }
+}

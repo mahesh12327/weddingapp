@@ -1,0 +1,15 @@
+.Banner {
+  background: url("../Images/bannerbg.jpg");
+  border: solid 5px #e27323;
+  height: 150px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.BannerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

@@ -1,0 +1,151 @@
+.WeddingDetails {
+  border: 3px solid #ae7705;
+  background: #d69100;
+  margin-bottom: 50px;
+}
+
+.innerContainer {
+  margin: 20px;
+  background: linear-gradient(to bottom, #ffd457 0%, #fec10b 100%);
+  background-image: linear-gradient(
+    rgb(255, 212, 87) 0%,
+    rgb(254, 193, 11) 100%
+  );
+
+  border: 3px solid #ae7705;
+}
+
+.topFlowerBg {
+  background: url(../../Images/top-pattern.jpg) repeat-x top left;
+}
+
+.leftLeavesBg {
+  background: url(../../Images/left-pattern.png) repeat-y top left;
+}
+
+.bottomDesignFlower {
+  background: url(../../Images/btm-flower-bg.png) no-repeat bottom center;
+  height: 75px;
+  width: 100%;
+}
+
+.weddingDetailsContainer {
+  padding: 40px;
+}
+
+.goodWords {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+  color: #6d0201;
+}
+
+.goodWords p:nth-child(2) {
+  text-align: center;
+}
+
+.goodWords p:last-child {
+  text-align: end;
+}
+
+.seetharam {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.chanting {
+  color: #3e2f01;
+}
+
+.chanting p {
+  text-align: center;
+  line-height: 24px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.couplephotos {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.details2 p {
+  color: #3e2f01;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nameDetails {
+  font-size: 20px;
+  color: #a42523;
+}
+
+.weddingDateDetails {
+  color: #a42523;
+}
+
+.brideQualification {
+  font-size: 14px;
+}
+
+.details3 p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details4 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.details4 div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details4 div:nth-child(2) img {
+  width: 150px;
+  height: 150px;
+}
+
+.details4 div:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.venueDetails p {
+  color: #3e2f01;
+  text-align: center;
+}
+
+@media screen and (max-width: 967px) {
+  .details4 div:first-child img {
+    width: 60px;
+    height: 100px;
+  }
+
+  .details4 div:nth-child(2) img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .details4 div:last-child img {
+    width: 60px;
+    height: 100px;
+  }
+
+  .innerContainer {
+    margin: 2px;
+    border: none;
+  }
+
+  .goodWords {
+    font-size: 12px;
+  }
+}
