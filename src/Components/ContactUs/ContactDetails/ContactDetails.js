@@ -22,8 +22,6 @@ function ContactDetails() {
       </div>
       <div className="ContactDetails-matter-container crimson">
         <h3>Krishna Reddy</h3>
-        <p className="mobile-text">Mobile : 9491444333</p>
-        <h3>Ravalika</h3>
         <p className="mobile-text">Mobile : 9851111333</p>
         <h3>Address :</h3>
         <p>
