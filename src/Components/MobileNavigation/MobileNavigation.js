@@ -19,22 +19,22 @@ function MobileNavigation() {
       {isMenuClicked && (
         <div>
           <ul>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/">HOME</Link>
             </li>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/wedding">OUR WEDDING</Link>
             </li>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/family">OUR FAMILY</Link>
             </li>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/events">EVENTS</Link>
             </li>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/gallery">GALLERY</Link>
             </li>
-            <li className="mobileNavigationText">
+            <li className="mobileNavigationText" onClick={menuHandler}>
               <Link to="/contact">CONTACT US</Link>
             </li>
           </ul>
