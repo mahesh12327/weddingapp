@@ -3,7 +3,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <small>© 2021. Sekhar weds Spandana. All rights Reserved.</small>
+      <small>
+        © 2021. Krishna weds Ravalika &#10084;. All rights Reserved.
+      </small>
     </div>
   );
 }

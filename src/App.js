@@ -23,7 +23,7 @@ function App() {
         <Route path="/events">
           <Events></Events>
         </Route>
-        <Route path="/gallary">
+        <Route path="/gallery">
           <Gallery></Gallery>
         </Route>
         <Route path="/contact">

@@ -34,8 +34,8 @@ function Home() {
         <div className="wedding-date-container">
           <div className="wedding-date">
             <div>
-              <h1>Wedding Date</h1>
-              <p>Thursday, August 26th 2021</p>
+              <p className="fontMedium great-vibes">Wedding Date</p>
+              <p className="crimson">Saturday, November 20th 2021</p>
             </div>
           </div>
           <div className="yellow-flower-container">

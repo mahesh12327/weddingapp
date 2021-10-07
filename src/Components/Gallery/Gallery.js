@@ -8,6 +8,7 @@ import Navigation from "../Navigation/Navigation";
 
 import "./Gallery.css";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
+import Photos from "./Photos/Photos";
 
 function Gallery() {
   return (
@@ -37,6 +38,9 @@ function Gallery() {
           <div className="detailsContainer">
             <GalleryCarousel></GalleryCarousel>
           </div>
+        </div>
+        <div className="mobile-photos">
+          <Photos></Photos>
         </div>
       </div>
       <Footer></Footer>

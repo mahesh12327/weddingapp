@@ -7,7 +7,9 @@ function Invitation() {
   return (
     <div className="Invitation">
       <div className="invite-head">
-        <p className="invite-head-text">SEKHAR & SPANDANA</p>
+        <p className="invite-head-text">
+          KRISHNA &<br /> RAVALIKA
+        </p>
         <img className="flower" src={flower} alt="flower"></img>
       </div>
       <div className="dotted-line"></div>
@@ -17,8 +19,9 @@ function Invitation() {
       <div className="dotted-line"></div>
       <div className="invite-head1">
         <p className="invite-head-text1">
-          THE BLESSING OF LORD <br></br>{" "}
-          <span className="vinayaka-text">VINAYAKA</span>
+          THE BLESSING OF
+          <br />
+          <span className="vinayaka-text">Lord VINAYAKA</span>
         </p>
         <img className="flower" src={flower} alt="flower"></img>
       </div>

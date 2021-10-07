@@ -43,8 +43,8 @@ function Navigation() {
         </div>
       </div>
       <div className="navigationItem">
-        <NavLink className="navigationText" to="/gallary">
-          GALLARY
+        <NavLink className="navigationText" to="/gallery">
+          GALLERY
         </NavLink>
         <div className="menuSeperator">
           <img src={menuSeperator} alt="menuSeperator"></img>

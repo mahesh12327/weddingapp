@@ -3,6 +3,8 @@ import galleryslide1 from "../../Images/galleryslide1.jpg";
 import galleryslide2 from "../../Images/galleryslide2.jpg";
 import galleryslide3 from "../../Images/galleryslide3.jpg";
 import galleryslide4 from "../../Images/galleryslide4.jpg";
+import galleryslide5 from "../../Images/galleryslide5.jpg";
+import galleryslide6 from "../../Images/galleryslide6.jpg";
 import Slider from "react-slick";
 function GalleryCarousel() {
   var settings = {
@@ -61,21 +63,35 @@ function GalleryCarousel() {
                     <img
                       className="galleryslide"
                       src={galleryslide2}
-                      alt="galleryslide1"
+                      alt="galleryslide2"
                     ></img>
                   </div>
                   <div>
                     <img
                       className="galleryslide"
                       src={galleryslide3}
-                      alt="galleryslide1"
+                      alt="galleryslide3"
                     ></img>
                   </div>
                   <div>
                     <img
                       className="galleryslide"
                       src={galleryslide4}
-                      alt="galleryslide1"
+                      alt="galleryslide4"
+                    ></img>
+                  </div>
+                  <div>
+                    <img
+                      className="galleryslide"
+                      src={galleryslide5}
+                      alt="galleryslide5"
+                    ></img>
+                  </div>
+                  <div>
+                    <img
+                      className="galleryslide"
+                      src={galleryslide6}
+                      alt="galleryslide6"
                     ></img>
                   </div>
                 </Slider>

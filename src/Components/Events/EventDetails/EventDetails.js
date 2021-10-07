@@ -21,13 +21,13 @@ function EventDetails() {
               <div className="receptionDetails">
                 <h3>RECEPTION</h3>
                 <p>
-                  <span className="venueInfoText">Date & Time:</span> Thursday
-                  26th Aug 2021 || 7 pm onwards
+                  <span className="venueInfoText">Date & Time :</span> Not Yet
+                  Decided
                   <br />
-                  <span className="venueInfoText">Venue:</span>{" "}
-                  <b>CRC Function Hall</b>
+                  <span className="venueInfoText">Venue :</span>{" "}
+                  <b>ZP High School Ground Kutukuluru</b>
                   <br />
-                  (Ravulapalem, East Godavari Dist, Andhra Pradesh – 533237)
+                  (Kutukuluru, East Godavari Dist, Andhra Pradesh – 533264)
                 </p>
               </div>
             </div>

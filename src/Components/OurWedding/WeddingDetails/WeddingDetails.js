@@ -3,6 +3,8 @@ import seethaRamPhoto from "../../Images/engagement-top-photo.jpg";
 import leftBanana from "../../Images/banana-tree-lft.png";
 import rightBanana from "../../Images/banana-tree-rht.png";
 import tambulamImg from "../../Images/wedding_img.png";
+import bridegroom from "../../Images/bridegroom.png";
+import bride from "../../Images/bride.png";
 
 function WeddingDetails() {
   return (
@@ -31,51 +33,48 @@ function WeddingDetails() {
               </div>
               <div className="couplephotos">
                 <div>
-                  <p>Photo1</p>
+                  <img src={bridegroom} alt="bridegroom"></img>
                 </div>
                 <div>
-                  <p>Photo1Name & Photo2Name</p>
+                  <p>
+                    Krishna <br />& <br />
+                    Ravalika
+                  </p>
                 </div>
                 <div>
-                  <p>Photo2</p>
+                  <img src={bride} alt="bride"></img>
                 </div>
               </div>
               <div className="details2">
                 <p>
-                  Smt. & Shri. Subba Rao & Kondamma Chemudu
+                  Smt. & Shri. Kovvuri Satya Durga Reddy & Kovvuri Bhaskara
+                  Lakshmi
                   <br />
                   request the honor of your presence and solicit your
                   <br />
-                  blessings at the wedding of our Srinuvas Rao(Late) & Venkata
-                  Lakshimi Chemudu Younger Son
+                  blessings at the wedding of our Kovvuri Venkata Reddy &
+                  Kovvuri Subbalakshmi Younger Son
                 </p>
               </div>
               <div className="details3">
                 <p>
                   <b className="nameDetails">
-                    Chi. Naga ManiSekhar Chemudu,
-                    <span className="brideQualification">
-                      {" "}
-                      B.Tech, Sft.Engineer NCR
-                    </span>
+                    Chi. Kovvuri Venkata Krishna Reddy,
+                    <span className="brideQualification"> B.Tech</span>
                   </b>
                   <br />
                   with
                   <br />
                   <b className="nameDetails">
-                    Chi. Lak. Sow. Sai Spandana Peddireddy,
-                    <span className="brideQualification">
-                      {" "}
-                      B.Tech, Sft.Engineer IBM
-                    </span>
+                    Chi. Lak. Sow. Padala Lakshmi Ravalika,
+                    <span className="brideQualification"> B.Tech</span>
                   </b>
                   <br />
-                  Only D/o. Smt. & Shri Peddireddy Shiva Kishor & Vijaya Surya
-                  Kumari
+                  Only D/o. Smt. & Shri Padala Srinivasa Reddy & Padala Aruna
                   <br />
                   <span className="weddingDateDetails">
-                    On Thursday, August 26th 2021 at 02:34 am (Early Hours of
-                    Friday)
+                    On Saturday, November 20th 2021 at 1.03 am (Early Hours of
+                    Sunday)
                   </span>
                 </p>
               </div>
@@ -92,8 +91,8 @@ function WeddingDetails() {
               </div>
               <div className="venueDetails">
                 <p>
-                  Venue: CRC Function Hall (Ravulapalem, East Godavari Dist,
-                  Andhra Pradesh – 533237)
+                  Venue: Sri Parvathi Sametha Kuteswaraswamy Temple (Kutukuluru,
+                  East Godavari Dist, Andhra Pradesh – 533264)
                 </p>
               </div>
             </div>

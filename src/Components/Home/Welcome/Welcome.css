@@ -17,11 +17,18 @@
 
 .welcome-title {
   color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   display: grid;
   align-items: flex-end;
+  font-size: 44px;
+}
+
+.great-vibes {
+  font-family: "Great Vibes", cursive;
+}
+
+.crimson {
+  font-family: "Crimson Text", serif;
 }
 
 .titleSeperator {
@@ -31,9 +38,10 @@
 }
 
 .welcome-matter-container {
-  color: white;
+  color: lightgray;
   width: 70%;
   margin: auto;
+  font-size: 20px;
 }
 
 .welcome-matter1 {
@@ -71,6 +79,6 @@
     position: absolute;
     top: 40px;
     left: 25%;
-    font-size: 15px;
+    font-size: 30px;
   }
 }

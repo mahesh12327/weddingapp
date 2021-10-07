@@ -126,4 +126,12 @@
   .brideGroomFamilyDetails {
     padding-left: 8px;
   }
+
+  .brideGroomHeader {
+    height: 150px;
+  }
+
+  .brideGroomHeader p {
+    text-align: center;
+  }
 }

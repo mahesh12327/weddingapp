@@ -23,26 +23,21 @@ function OurFamily() {
           <div className="blueBorderEraser"></div>
           <div className="brideGroomInnerContainer">
             <div className="brideGroomHeader">
-              <h1>Bride Groom's Family</h1>
+              <p className="fontMedium great-vibes">Bride Groom's Family</p>
             </div>
-            <div className="brideGroomFamilyDetails">
+            <div className="brideGroomFamilyDetails crimson">
               <tbody>
                 <tr>
                   <td width="27%">Full Name</td>
                   <td width="3%">:</td>
                   <td width="65%" className="brideGroomNameStyle">
-                    Sekhar Chemudu
+                    Kovvuri Venkata Krishna Reddy
                   </td>
                 </tr>
                 <tr>
                   <td>Living in</td>
                   <td>:</td>
-                  <td>KPHB ,Hyderabad</td>
-                </tr>
-                <tr>
-                  <td>Occupation</td>
-                  <td>:</td>
-                  <td>Software Engineer, NCR</td>
+                  <td>Kutukuluru, East Godavari district, AP.</td>
                 </tr>
                 <tr></tr>
                 <tr class="seperation_row">
@@ -53,12 +48,12 @@ function OurFamily() {
                 <tr>
                   <td>Father &amp; Mother</td>
                   <td>:</td>
-                  <td>Srinuvas Rao &amp; Venkata Lakshimi Chemudu</td>
+                  <td>Kovvuri Venkata Reddy &amp; Kovvuri Subbalakshmi</td>
                 </tr>
                 <tr>
                   <td>Living in</td>
                   <td>:</td>
-                  <td>Pappulavaaripalem</td>
+                  <td>Kutukuluru, East Godavari district, AP.</td>
                 </tr>
                 <tr class="seperation_row">
                   <td>&nbsp;</td>
@@ -68,22 +63,19 @@ function OurFamily() {
                 <tr>
                   <td>Brother &amp; Sister-in-law</td>
                   <td>:</td>
-                  <td>Sathish &amp; Naga Durga Chemudu</td>
+                  <td>
+                    Kovvuri Satya Durga Reddy &amp; Kovvuri Bhaskara Lakshmi
+                  </td>
                 </tr>
-                <tr>
-                  <td>Living in</td>
-                  <td>:</td>
-                  <td>KPHB ,Hyderabad</td>
-                </tr>
-                <tr>
-                  <td>Brother's Occupation</td>
-                  <td>:</td>
-                  <td>Software Engineer in Wellsfargo</td>
+                <tr class="seperation_row">
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
                 </tr>
                 <tr>
                   <td>Brother's Kids</td>
                   <td>:</td>
-                  <td>Mokshal Srinivas</td>
+                  <td>Kovvuri Jayavardhana Venkata Hariharan Reddy</td>
                 </tr>
               </tbody>
             </div>
@@ -96,26 +88,21 @@ function OurFamily() {
           <div className="pinkBorderEraser"></div>
           <div className="brideInnerContainer">
             <div className="brideGroomHeader">
-              <h1>Bride Groom's Family</h1>
+              <p className="fontMedium great-vibes">Bride's Family</p>
             </div>
-            <div className="brideGroomFamilyDetails">
+            <div className="brideGroomFamilyDetails crimson">
               <tbody>
                 <tr>
                   <td width="27%">Full Name</td>
                   <td width="3%">:</td>
                   <td width="65%" className="brideGroomNameStyle">
-                    Sekhar Chemudu
+                    Padala Lakshmi Ravalika
                   </td>
                 </tr>
                 <tr>
                   <td>Living in</td>
                   <td>:</td>
-                  <td>KPHB ,Hyderabad</td>
-                </tr>
-                <tr>
-                  <td>Occupation</td>
-                  <td>:</td>
-                  <td>Software Engineer, NCR</td>
+                  <td>Balabadrapuram, East Godavari District, Ap.</td>
                 </tr>
                 <tr></tr>
                 <tr class="seperation_row">
@@ -126,12 +113,12 @@ function OurFamily() {
                 <tr>
                   <td>Father &amp; Mother</td>
                   <td>:</td>
-                  <td>Srinuvas Rao &amp; Venkata Lakshimi Chemudu</td>
+                  <td>Padala Srinivasa Reddy &amp; Padla Aruna</td>
                 </tr>
                 <tr>
                   <td>Living in</td>
                   <td>:</td>
-                  <td>Pappulavaaripalem</td>
+                  <td>Balabadrapuram, East Godavari District, Ap.</td>
                 </tr>
                 <tr class="seperation_row">
                   <td>&nbsp;</td>
@@ -139,24 +126,9 @@ function OurFamily() {
                   <td>&nbsp;</td>
                 </tr>
                 <tr>
-                  <td>Brother &amp; Sister-in-law</td>
+                  <td>Brother</td>
                   <td>:</td>
-                  <td>Sathish &amp; Naga Durga Chemudu</td>
-                </tr>
-                <tr>
-                  <td>Living in</td>
-                  <td>:</td>
-                  <td>KPHB ,Hyderabad</td>
-                </tr>
-                <tr>
-                  <td>Brother's Occupation</td>
-                  <td>:</td>
-                  <td>Software Engineer in Wellsfargo</td>
-                </tr>
-                <tr>
-                  <td>Brother's Kids</td>
-                  <td>:</td>
-                  <td>Mokshal Srinivas</td>
+                  <td>Padala Venkata Reddy</td>
                 </tr>
               </tbody>
             </div>

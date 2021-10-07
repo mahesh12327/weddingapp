@@ -8,7 +8,7 @@ function Banner({ text }) {
         <img src={bannerTopDesign} alt="bannerTopDesign"></img>
       </div>
       <div className="BannerText">
-        <h1>{text}</h1>
+        <p className="fontMedium great-vibes">{text}</p>
       </div>
     </div>
   );

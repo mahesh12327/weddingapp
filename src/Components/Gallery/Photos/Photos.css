@@ -1,0 +1,6 @@
+.photoContainer img {
+  max-width: 100%;
+  border: 3px solid #ae0633;
+  box-shadow: 4px 4px 25px 1px rgb(0, 0, 0);
+  margin-bottom: 20px;
+}

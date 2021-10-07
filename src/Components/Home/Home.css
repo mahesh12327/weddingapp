@@ -19,6 +19,10 @@
   column-gap: 5px;
 }
 
+.fontMedium {
+  font-size: 44px;
+}
+
 .detailsContainer {
   margin-top: 10px;
 }
@@ -69,5 +73,9 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     margin-top: 50px;
+  }
+
+  .wedding-date {
+    padding-left: 10px;
   }
 }

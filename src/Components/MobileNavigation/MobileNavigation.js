@@ -32,7 +32,7 @@ function MobileNavigation() {
               <Link to="/events">EVENTS</Link>
             </li>
             <li className="mobileNavigationText">
-              <Link to="/gallary">GALLARY</Link>
+              <Link to="/gallery">GALLERY</Link>
             </li>
             <li className="mobileNavigationText">
               <Link to="/contact">CONTACT US</Link>

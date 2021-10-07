@@ -11,7 +11,7 @@ function ContactDetails() {
           <img src={leftRedFlower} alt="leftFlower"></img>
         </div>
         <div className="ContactDetails-title">
-          <h2>Contact Us</h2>
+          <p className="fontMedium great-vibes">Contact Us</p>
         </div>
         <div className="right-red-flower-container">
           <img src={rightRedFlower} alt="rightFlower"></img>
@@ -20,24 +20,22 @@ function ContactDetails() {
       <div className="titleSeperator">
         <img src={titleSeperator} alt="titleSeperator"></img>
       </div>
-      <div className="ContactDetails-matter-container">
-        <h3>Satish Chemudu</h3>
-        <p className="mobile-text">Mobile:9392459917</p>
-        <h3>Sekhar Chemudu</h3>
-        <p className="mobile-text">Mobile : 9989889882</p>
-        <h3>Siva Sai Krishna Peddireddy</h3>
-        <p className="mobile-text">Mobile : 94918 85776</p>
+      <div className="ContactDetails-matter-container crimson">
+        <h3>Krishna Reddy</h3>
+        <p className="mobile-text">Mobile : 9491444333</p>
+        <h3>Ravalika</h3>
+        <p className="mobile-text">Mobile : 9851111333</p>
         <h3>Address :</h3>
         <p>
-          Ranga Center,
+          Bellam baddi Street,
           <br />
-          Pappula Vari Palem,
+          Near Post office, Kutukuluru,
           <br />
-          P Ganavaram Mandal,
+          Anaparthi Mandal,
           <br />
           East Godavari District,
           <br />
-          Andhrapradesh Pin:533229.
+          Andhrapradesh Pin:533341.
         </p>
       </div>
     </div>

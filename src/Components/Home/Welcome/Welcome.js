@@ -10,10 +10,10 @@ function Welcome() {
         <div>
           <img src={leftRedFlower} alt="leftFlower"></img>
         </div>
-        <div className="welcome-title">
-          <h2>
+        <div className="welcome-title great-vibes">
+          <p>
             Welcome to <br></br>Our Wedding site
-          </h2>
+          </p>
         </div>
         <div className="right-red-flower-container">
           <img src={rightRedFlower} alt="rightFlower"></img>
@@ -22,7 +22,7 @@ function Welcome() {
       <div className="titleSeperator">
         <img src={titleSeperator} alt="titleSeperator"></img>
       </div>
-      <div className="welcome-matter-container">
+      <div className="welcome-matter-container crimson">
         <p className="welcome-matter1">
           <small>
             We can’t wait to see you on our big day! Thank you to all of our
@@ -38,8 +38,8 @@ function Welcome() {
         </p>
       </div>
       <div className="welcome-footer">
-        <h1 className="welcome-footer-text">
-          Love, <br></br>Sekhar & Spandana
+        <h1 className="welcome-footer-text crimson">
+          Love, <br></br>Krishna & Ravalika
         </h1>
       </div>
     </div>
