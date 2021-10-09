@@ -38,12 +38,6 @@ function MobileNavigation() {
               <Link to="/contact">CONTACT US</Link>
             </li>
           </ul>
-          {/* <p className="mobileNavigationText">HOME</p>
-          <p className="mobileNavigationText">OUR WEDDING</p>
-          <p className="mobileNavigationText">OUR FAMILY</p>
-          <p className="mobileNavigationText">EVENTS</p>
-          <p className="mobileNavigationText">GALLARY</p>
-          <p className="mobileNavigationText">CONTACT US</p> */}
         </div>
       )}
     </div>
